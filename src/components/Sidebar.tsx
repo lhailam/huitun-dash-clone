@@ -25,7 +25,8 @@ const sidebarItems = [
     icon: ShoppingBag, 
     label: "商品",
     children: [
-      { label: "商品库", path: "/products/library" }
+      { label: "商品库", path: "/products/library" },
+      { label: "热门小店榜", path: "/products/popular-shops" }
     ]
   },
   { icon: Store, label: "小店" },
